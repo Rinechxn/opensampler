@@ -1,0 +1,12 @@
+CC = gcc
+CFLAGS = -Wall -O2
+LDFLAGS = -lz
+
+SRC = buildtools/*.c
+OUT = osmpbuild
+
+all:
+	$(CC) $(CFLAGS) $(SRC) -o $(OUT) $(LDFLAGS)
+
+clean:
+	rm -f $(OUT)
