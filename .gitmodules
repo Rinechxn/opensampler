@@ -1,3 +1,6 @@
 [submodule "external/JUCE"]
 	path = external/JUCE
 	url = https://github.com/juce-framework/JUCE.git
+[submodule "libosmp"]
+	path = libosmp
+	url = https://github.com/Rinechxn/libosmp
